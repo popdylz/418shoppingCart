@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<title>418购物车</title>
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<style>
+		*{margin:0;padding:0;}
+		html,body{height:100%;font-family:"microsoft yahei";}
+		img{display:block;}
+		.swiper-container{width:100%;height:100%;background:#fff;}
+        .swiper-slide{width:100%;height:100%;background:url(images/bg.jpg) no-repeat left top;background-size:100% 100%;}
+        .swiper-pagination-bullet{width:6px;height:6px;background:#fff;opacity:.4;}
+
+		@-webkit-keyframes tipmove{0%{opacity:0} 50%{opacity:1} 100%{opacity:0}}
+		.ani{position:absolute;}
+		.array{position:absolute;z-index:999;width:90px;height:69px; top:1140px; left:336px;-webkit-animation: tipmove 1.5s infinite ease-in-out;}
+		.logo{width: 13.07%;height: 9.90%;position: absolute;left: 8.67%;top: 1.35%;}
+		.p1-1{width: 75.47%;height: 35.76%;position: absolute;left: 12.27%;top: 32.12%;}
+		.p2-1{width:479px;height:299px;left:146px;top:96px;z-index:1;}
+		.p2-2{width:192px;height:231px;left:142px;top:404px;z-index:1;}
+		.p2-3{width:192px;height:231px;left:412px;top:404px;z-index:1;}
+		.p2-4{width:192px;height:231px;left:142px;top:650px;z-index:1;}
+		.p2-5{width:192px;height:231px;left:412px;top:650px;z-index:1;}
+		.p2-6{width:192px;height:231px;left:142px;top:898px;z-index:1;}
+		.p2-7{width:192px;height:231px;left:412px;top:898px;z-index:1;}
+		
+		.p3-1{width:482px;height:250px;left:146px;top:96px;z-index:1;}
+		.p3-2{width:542px;height:248px;left:108px;top:364px;z-index:1;}
+		.p3-3{width:622px;height:571px;left:70px;top:592px;z-index:1;}
+		
+		.p4-1{width:476px;height:245px;left:146px;top:88px;z-index:1;}
+		.p4-2{width:555px;height:215px;left:104px;top:366px;z-index:1;}
+		.p4-3{width:622px;height:571px;left:84px;top:592px;z-index:1;}
+		
+		.p5-1{width:482px;height:250px;left:146px;top:96px;z-index:1;}
+		.p5-2{width:542px;height:248px;left:108px;top:364px;z-index:1;}
+		.p5-3{width:622px;height:571px;left:84px;top:592px;z-index:1;}
+		
+		.p6-1{width:482px;height:250px;left:146px;top:96px;z-index:1;}
+		.p6-2{width:542px;height:248px;left:108px;top:364px;z-index:1;}
+		.p6-3{width:622px;height:571px;left:84px;top:592px;z-index:1;}
+		
+		.p7-1{width:482px;height:250px;left:146px;top:96px;z-index:1;}
+		.p7-2{width:542px;height:248px;left:108px;top:364px;z-index:1;}
+		.p7-3{width:622px;height:571px;left:84px;top:592px;z-index:1;}
+		
+		.p8-1{width:482px;height:250px;left:146px;top:96px;z-index:1;}
+		.p8-2{width:542px;height:248px;left:108px;top:364px;z-index:1;}
+		.p8-3{width:622px;height:571px;left:84px;top:592px;z-index:1;}
+		
+		.p9-1{width:268px;height:109px;left:400px;top:25px;z-index:3;}
+		.p9-2{width:470px;height:877px;left:145px;top:216px;z-index:1;}
+	</style>
+</head>
+
+<body>
+	<div class="shareImg" style="display: none;"><img src="images/share.jpg"></div>
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	        <!-- -----------slide1--------------- -->
+	        <section class="swiper-slide">
+				<img src="images/logo.jpg" class="logo"/> 
+	        	<img src="images/page1-1.png" class="p1-1 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"/>        
+	        </section>
+	        <!-- -----------slide2--------------- -->
+	        <section class="swiper-slide">
+				<img src="images/logo.jpg" class="logo"/> 
+	        	<img src="images/page2-1.png" class="ani resize p2-1" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"/>  
+		        <img src="images/page2-2.png" class="ani resize btn p2-2" data-index = "2" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s"> 
+		      	<img src="images/page2-3.png" class="ani resize btn p2-3" data-index = "3" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s"/> 
+				<img src="images/page2-4.png" class="ani resize btn p2-4" data-index = "4" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="0.3s"/> 
+		      	<img src="images/page2-5.png" class="ani resize btn p2-5" data-index = "5" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.8s" swiper-animate-delay="0.3s"/> 
+				<img src="images/page2-6.png" class="ani resize btn p2-6" data-index = "6" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="0.4s"/> 
+		      	<img src="images/page2-7.png" class="ani resize btn p2-7" data-index = "7" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.8s" swiper-animate-delay="0.4s"/> 
+	        </section>
+        	<!-- -----------slide3--------------- -->
+	        <section class="swiper-slide">
+				<img src="images/logo.jpg" class="logo"> 
+	        	<img src="images/page3-1.png" class="ani resize p3-1" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"/>        	
+		        <img src="images/page3-2.png" class="ani resize p3-2" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s"/> 
+		      	<img src="images/page3-3.png" class="ani resize p3-3" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s"/> 
+				<a href="#" class="resize" class="resize" style="position: absolute;width:287px;height:264px;left:78px;top:640px;z-index:2;"></a>
+				<a href="#" class="resize" class="resize" style="position: absolute;width:287px;height:264px;left:395px;top:640px;z-index:2;"></a>
+				<a href="#" class="resize" class="resize" style="position: absolute;width:355px;height:155px;left:198px;top:979px;z-index:2;"></a>
+	        </section>
+	        <!-- -----------slide4--------------- -->
+	        <section class="swiper-slide">
+				<img src="images/logo.jpg" class="logo"> 
+	        	<img src="images/page4-1.png" class="ani resize p4-1" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"/>        	
+		        <img src="images/page4-2.png" class="ani resize p4-2" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s"/> 
+		      	<img src="images/page4-3.png" class="ani resize p4-3" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s"/> 
+				<a href="#" class="resize" class="resize" style="position: absolute;width:287px;height:264px;left:78px;top:640px;z-index:2;"></a>
+				<a href="#" class="resize" class="resize" style="position: absolute;width:287px;height:264px;left:395px;top:640px;z-index:2;"></a>
+				<a href="#" class="resize" class="resize" style="position: absolute;width:355px;height:155px;left:198px;top:979px;z-index:2;"></a>
+	        </section>
+	        <!-- -----------slide5--------------- -->
+	        <section class="swiper-slide">
+				<img src="images/logo.jpg" class="logo"> 
+	        	<img src="images/page5-1.png" class="ani resize p5-1" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"/>        	
+		        <img src="images/page5-2.png" class="ani resize p5-2" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s"/> 
+		      	<img src="images/page5-3.png" class="ani resize p5-3" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s"/> 
+				<a href="#" class="resize" class="resize" style="position: absolute;width:287px;height:264px;left:78px;top:640px;z-index:2;"></a>
+				<a href="#" class="resize" class="resize" style="position: absolute;width:287px;height:264px;left:395px;top:640px;z-index:2;"></a>
+				<a href="#" class="resize" class="resize" style="position: absolute;width:355px;height:155px;left:198px;top:979px;z-index:2;"></a>
+	        </section>
+	        <!---------------- slide6 --------------->
+	        <section class="swiper-slide">
+				<img src="images/logo.jpg" class="logo"> 
+	        	<img src="images/page6-1.png" class="ani resize p6-1" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"/>        	
+		        <img src="images/page6-2.png" class="ani resize p6-2" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s"/> 
+		      	<img src="images/page6-3.png" class="ani resize p6-3" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s"/> 
+				<a href="#" class="resize" class="resize" style="position: absolute;width:287px;height:264px;left:78px;top:640px;z-index:2;"></a>
+				<a href="#" class="resize" class="resize" style="position: absolute;width:287px;height:264px;left:395px;top:640px;z-index:2;"></a>
+				<a href="#" class="resize" class="resize" style="position: absolute;width:355px;height:155px;left:198px;top:979px;z-index:2;"></a>
+	        </section>
+	        <!-- -----------slide7--------------- -->
+	        <section class="swiper-slide">
+				<img src="images/logo.jpg" class="logo"> 
+	        	<img src="images/page7-1.png" class="ani resize p7-1" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"/>        	
+		        <img src="images/page7-2.png" class="ani resize p7-2" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s"/> 
+		      	<img src="images/page7-3.png" class="ani resize p7-3" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s"/> 
+				<a href="#" class="resize" class="resize" style="position: absolute;width:287px;height:264px;left:78px;top:640px;z-index:2;"></a>
+				<a href="#" class="resize" class="resize" style="position: absolute;width:287px;height:264px;left:395px;top:640px;z-index:2;"></a>
+				<a href="#" class="resize" class="resize" style="position: absolute;width:355px;height:155px;left:198px;top:979px;z-index:2;"></a>
+	        </section>
+	        <!-- -----------slide8--------------- -->
+	        <section class="swiper-slide">
+				<img src="images/logo.jpg" class="logo"> 
+	        	<img src="images/page8-1.png" class="ani resize p8-1" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"/>        	
+		        <img src="images/page8-2.png" class="ani resize p8-2" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s"/> 
+		      	<img src="images/page8-3.png" class="ani resize p8-3" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s"/> 
+				<a href="#" class="resize" class="resize" style="position: absolute;width:287px;height:264px;left:78px;top:640px;z-index:2;"></a>
+				<a href="#" class="resize" class="resize" style="position: absolute;width:287px;height:264px;left:395px;top:640px;z-index:2;"></a>
+				<a href="#" class="resize" class="resize" style="position: absolute;width:355px;height:155px;left:198px;top:979px;z-index:2;"></a>
+	        </section>
+	        <!--- ----------slide9--------------- -->
+	        <section class="swiper-slide">
+				<img src="images/logo.jpg" class="logo"> 
+	        	<img src="images/page9-1.png" class="ani resize p9-1" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"/>        	
+		        <img src="images/page9-2.png" class="ani resize p9-2" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s"/> 
+	        </section>
+	    </div>
+	    
+	    <img src="images/arrow.png" class="resize array"/> 
+	</div>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.animate.min.js"></script>
+<script src="js/jquery-2.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script>  
+	var scaleW = window.innerWidth/750,
+		scaleH = window.innerHeight/1334;
+	$('.resize').each(function(){
+		var _top = parseInt($(this).css("top"))*scaleH,
+			_left = parseInt($(this).css("left"))*scaleW,
+			_width = parseInt($(this).css("width"))*scaleH,
+			_height = parseInt($(this).css("height"))*scaleW;
+		$(this).css({'top':_top,'left':_left,'width':_width,'height':_height});
+	});
+		  
+    var mySwiper = new Swiper ('.swiper-container', {
+	    direction : 'vertical',
+	    mousewheelControl : true,
+	    onInit: function(swiper){
+		   swiperAnimateCache(swiper);//隐藏动画元素
+		   swiperAnimate(swiper);//初始化完成开始动画
+		},
+	    onSlideChangeEnd: function(swiper){
+			swiperAnimate(swiper);//每个slide切换结束时也运行当前slide动画
+	    }	  
+    });   
+	   
+	$('.btn').click(function(){
+		var idx = $(this).attr('data-index');
+		mySwiper.slideTo(idx, 500, true);//切换到对应的slide;true--设置为false时不会触发onSlideChange回调函数
+	})
+	
+  </script>
+</body>
+</html>
